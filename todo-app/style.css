@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width:60%;
+    min-width: 320px;
+    margin:0 auto;
+}
+
+header {
+    border-radius: 10px;
+    background:#eee;
+    padding:10px;
+}
+
+section div {
+    display: flex;
+    justify-content: space-between;
+}
+
+section div + div {
+    border-top: 1px solid #ccc;
+}
